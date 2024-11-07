@@ -26,7 +26,7 @@ def starts_with_consonant?(s)
 end
 
 def binary_multiple_of_4?(s)
-  s.match?(/\A[01]*00\z/)
+  s.match?(/\A[01]*00\z/) || s == '0'
 end
 
 # Part 3
